@@ -126,9 +126,14 @@ a:hover, a:focus, a:active {
   color: #fff;
   border: 2px solid #0A7B91;
 }
+
+.cursor{
+      cursor: default !important;
+}
+
 .btn-success:hover, .btn-success:focus, .btn-success:active {
   background: #fff !important;
-  border-color: #fff !important;
+  border-color: #0A7B91 !important;
     color : #0A7B91;
 }
 .btn-success.btn-outline {
@@ -1210,7 +1215,7 @@ border: 2px solid #eeeeee;
 .btn_pastime:hover{
 background-color: #fff !important;
 color: #2AA35E;
-border: 2px solid #fff !important;
+border: 2px solid #2AA35E !important;
 }
 
 .btn_ebullition{
@@ -1221,7 +1226,7 @@ border: 2px solid #fff;
 .btn_ebullition:hover{
 background-color: #fff !important;
 color: #940E7F;
-border: 2px solid #fff !important;
+border: 2px solid #940E7F !important;
 }
 
 .btn_asrac{
@@ -1232,7 +1237,7 @@ border: 2px solid #fff !important;
 .btn_asrac:hover{
 background-color: #fff !important;
 color: #4099FF;
-border: 2px solid #fff !important;
+border: 2px solid #4099FF !important;
 }
 
 .btn_ddcspp{
@@ -1243,7 +1248,7 @@ border: 2px solid #fff !important;
 .btn_ddcspp:hover{
 background-color: #fff !important;
 color: #58a6cd;
-border: 2px solid #fff !important;
+border: 2px solid #58a6cd !important;
 }
 
 /* 
@@ -1475,8 +1480,16 @@ font-size: 14px;
   color: #fb4f59;
 }
 
+.mail{
+    color: #fff !important;
+background-color: transparent !important;
+    border: 2px solid #fff !important;
+    
+}
+
 .mail:hover{
 background-color: transparent !important;
+    border: 2px solid #fff !important;
 }
 
 
